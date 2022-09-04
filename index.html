@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script defer src="path1.js"></script>
+    <script src="calculator.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <h1>блатной калькулятор)</h1>
+    <p>
+        <input type="text" size="10" class="txb" id="texting">
+    </p>
+    <p>
+        <button type="submit" id="but_1" class="digits" onclick=clicked(1)>1</button>
+        <button type="submit" id="but_2" class="digits" onclick=clicked(2)>2</button>
+        <button type="submit" id="but_3" class="digits" onclick=clicked(3)>3</button>
+        <button type="submit" id="but_+" class="digits" onclick=clicked("+")>+</button>
+        <button type="submit" id="but_*" class="digits" onclick=clicked("*")>*</button>
+        <button type="submit" id="but_sin" class="digits" onclick=clicked("sin(")>sin</button>
+        <button type="submit" id="but_cos" class="digits" onclick=clicked("cos(")>cos</button>
+        <button type="submit" id="but_pi" class="digits" onclick=clicked("pi")>pi</button>
+        <button type="submit" id="but_e" class="digits" onclick=clicked("e")>e</button>
+    </p>
+    <p>
+        <button type="submit" id="but_4" class="digits" onclick=clicked(4)>4</button>
+        <button type="submit" id="but_5" class="digits" onclick=clicked(5)>5</button>
+        <button type="submit" id="but_6" class="digits" onclick=clicked(6)>6</button>
+        <button type="submit" id="but_-" class="digits" onclick=clicked("-")>-</button>
+        <button type="submit" id="but_/" class="digits" onclick=clicked("/")>/</button>
+        <button type="submit" id="but_tan" class="digits" onclick=clicked("tan(")>tan</button>
+        <button type="submit" id="but_atan" class="digits" onclick=clicked("atan(")>atan</button>
+        <button type="submit" id="but_exp" class="digits" onclick=clicked("exp(")>exp</button>
+        <button type="submit" id="but_log" class="digits" onclick=clicked("log(")>log</button>
+    </p>
+    <p>
+        <button type="submit" id="but_7" class="digits" onclick=clicked(7)>7</button>
+        <button type="submit" id="but_8" class="digits" onclick=clicked(8)>8</button>
+        <button type="submit" id="but_9" class="digits" onclick=clicked(9)>9</button>
+        <button type="submit" id="but_0" class="digits" onclick=clicked(0)>0</button>
+        <button type="submit" id="but_=" class="digits" onclick=equalsCalc()>=</button>
+        <button type="submit" id="but_." class="digits" onclick=clicked(".")>.</button>
+        <button type="submit" id="but_(" class="digits" onclick=clicked("(")>(</button>
+        <button type="submit" id="but_)" class="digits" onclick=clicked(")")>)</button>
+        <button type="submit" id="but_pow" class="digits" onclick=clicked("pow(")>pow</button>
+        <button type="submit" id="but_," class="digits" onclick=clicked(",")>,</button>
+    </p>
+    <p>
+        <button type="submit" id="but_reset" class="digits" onclick=resetTB()>Сброс</button>
+        <button type="submit" id="but_back" class="digits" onclick=сTB()>С</button>
+    </p>
+</body>
+</html>
